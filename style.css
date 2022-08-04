@@ -39,7 +39,7 @@ body {
   font-family: 'Montserrat';
 }
 header {
-  background-image:url(/images/Norway-wallpaper.png) ;
+  background-image:url(images/Norway-wallpaper.png) ;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,16 +173,16 @@ main {
   background-repeat: no-repeat;
 }
 #hiking{
-  background-image: url(/images/Hiking.png);
+  background-image: url(images/Hiking.png);
 }
 #sailing{
-  background-image: url(/images/Sailing.png);
+  background-image: url(images/Sailing.png);
 }
 #skiing{
-  background-image: url(/images/Skiing.png);
+  background-image: url(images/Skiing.png);
 }
 #Kayaking{
-  background-image: url(/images/Kayaking.png);
+  background-image: url(images/Kayaking.png);
 }
 
 #activities-gallery>div>p{
@@ -206,7 +206,7 @@ margin: 0px 120px;
   justify-content: center;
 }
 #Mointain-image{
-  background-image: url(/images/Mountains.png);
+  background-image: url(images/Mountains.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -289,7 +289,7 @@ top: 37px;
   height: 50px;
 }
 #comments {
-  background-image: url(/images/MaskGroup.png);
+  background-image: url(images/MaskGroup.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
