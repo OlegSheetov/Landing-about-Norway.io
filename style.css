@@ -37,6 +37,8 @@ img {
 
 body {
   font-family: 'Montserrat';
+  overflow-x: hidden;
+  
 }
 header {
   background-image:url(images/Norway-wallpaper.png) ;
@@ -155,6 +157,7 @@ font-weight: 100;
 
 main {
   margin-top: 130px;
+
 }
 
  #text,#text2,#text3,#text4 { 
@@ -266,6 +269,7 @@ top: 37px;
   transition: 900ms;
 }
 #Hotels-and-Apartement-Gallery>div:hover{
+  margin-top: 10px;
   padding:0px 20px;
   transition: 900ms;
 }
@@ -370,6 +374,11 @@ footer{
   margin: 30px;
   text-decoration: none;
   color: rgb(45, 45, 45);
+  transition: 900ms;
+}
+#footer-menu>a:hover{
+  font-size: 20px;
+  transition: 900ms;
 }
 footer > p {
   margin: 20px;
@@ -383,6 +392,6 @@ footer > p {
   height: 20px;
   width: 110px;
   position: relative;
-  left: 400px;
+  left: 300px;
  
 }
