@@ -1,4 +1,3 @@
-
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -20,8 +19,8 @@ h6,
 p,
 ol,
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-weight: normal;
 }
 
@@ -38,51 +37,59 @@ img {
 body {
   font-family: 'Montserrat';
   overflow-x: hidden;
-  
+
 }
+
 header {
-  background-image:url(images/Norway-wallpaper.png) ;
+  background-image: url(images/Norway-wallpaper.png);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 924px;
 }
-#header-travelx-icons{
- position: relative;
- bottom: 490px;
- left: 50px;
- width: 200px;
+
+#header-travelx-icons {
+  position: relative;
+  bottom: 490px;
+  left: 50px;
+  width: 200px;
 }
-#header-travelx-icons > img:last-child {
+
+#header-travelx-icons>img:last-child {
   position: relative;
   bottom: 10px;
   left: 5px;
 }
+
 #upper-main-menu {
- display: flex;
- justify-content: center;
- position: relative;
- top: 30px;
-  
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+
 }
+
 #menuicon {
   position: relative;
   left: 95%;
   bottom: 450px;
 
 }
-#upper-main-menu > a {
+
+#upper-main-menu>a {
   text-decoration: none;
   color: white;
   margin: 20px 10px;
   font-weight: 500;
   transition: 900ms;
 }
+
 #upper-main-menu>a:hover {
-  text-shadow:  5px 5px 10px white;
+  text-shadow: 5px 5px 10px white;
   font-size: 20px;
   transition: 900ms;
 }
+
 #norway-title {
   display: flex;
   justify-content: center;
@@ -91,24 +98,28 @@ header {
   top: 200px;
   right: 100px;
 }
-#norway-title > h1{
+
+#norway-title>h1 {
   font-size: 200px;
-  font-weight:bold;
+  font-weight: bold;
 }
-#norway-title > h3 {
-position: relative;
-left: 500px;
-letter-spacing: 10px;
-font-size: 30px;
-font-weight: 100;
+
+#norway-title>h3 {
+  position: relative;
+  left: 500px;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: 100;
 }
+
 #cityes {
   display: flex;
   justify-content: center;
   position: relative;
   top: 400px;
 }
-#cityes > div {
+
+#cityes>div {
   margin: 0px 20px;
   width: 200px;
   height: 60px;
@@ -117,40 +128,47 @@ font-weight: 100;
   color: white;
   transition: 900ms;
 }
-#cityes > div:hover{
+
+#cityes>div:hover {
   width: 250px;
   transition: 900ms;
 }
-#cityes > div > img{
+
+#cityes>div>img {
   position: relative;
   top: 10px;
   left: 10px;
 }
-#cityes > div > p{
+
+#cityes>div>p {
   text-align: center;
   position: relative;
   bottom: 25px;
 }
-#cityes > div > p:last-child {
+
+#cityes>div>p:last-child {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 200;
   font-size: 13px;
 }
 
 #messengers {
-   display: flex;
-   flex-direction: column;
-   position: relative;
-   bottom: 50px;
-   left: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 50px;
+  left: 40px;
 }
-#messengers > a { 
+
+#messengers>a {
   margin: 10px;
-} 
+}
+
 #facebook {
   position: relative;
   left: 5px;
 }
+
 #twitter {
   position: relative;
   left: 2px;
@@ -161,18 +179,23 @@ main {
 
 }
 
- #text,#text2,#text3,#text4 { 
+#text,
+#text2,
+#text3,
+#text4 {
   text-align: center;
   margin: 50px 0px;
 }
- #text > p,
- #text2 > p,
- #text3 > p,
- #text4 > p {
+
+#text>p,
+#text2>p,
+#text3>p,
+#text4>p {
   letter-spacing: 10px;
-  
-} 
-#activities-gallery { 
+
+}
+
+#activities-gallery {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -181,7 +204,8 @@ main {
   height: 500px;
   border: 2px #ffffff solid;
 }
-#activities-gallery > div {
+
+#activities-gallery>div {
   height: 450px;
   width: 255px;
   margin: 0px 10px;
@@ -190,50 +214,61 @@ main {
   box-shadow: 10px 10px 10px gray;
   border-radius: 20px;
 }
-#hiking{
+
+#hiking {
   background-image: url(images/Hiking.png);
   transition: 900ms;
 }
-#sailing{
+
+#sailing {
   background-image: url(images/Sailing.png);
   transition: 900ms;
 }
-#skiing{
+
+#skiing {
   background-image: url(images/Skiing.png);
   transition: 900ms;
 }
-#Kayaking{
+
+#Kayaking {
   background-image: url(images/Kayaking.png);
   transition: 900ms;
 }
 
-#hiking:hover ,#sailing:hover ,#skiing:hover ,#Kayaking:hover {
-height: 500px;
+#hiking:hover,
+#sailing:hover,
+#skiing:hover,
+#Kayaking:hover {
+  height: 500px;
   width: 300px;
   box-shadow: 50px 50px 50px gray;
- transition: 900ms;
+  transition: 900ms;
 }
-#activities-gallery>div>p{
+
+#activities-gallery>div>p {
   position: relative;
   left: 20px;
   top: 350px;
- margin-top: 1px;
-  color:white;
+  margin-top: 1px;
+  color: white;
 }
-#activities-gallery > div > p:first-child  { 
+
+#activities-gallery>div>p:first-child {
   font-weight: 500;
   font-size: 32px;
 }
-#Our-Philosophy{
-margin: 0px 120px;
+
+#Our-Philosophy {
+  margin: 0px 120px;
 }
-#Sustainable 
-{
+
+#Sustainable {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#Mointain-image{
+
+#Mointain-image {
   background-image: url(images/Mountains.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,65 +277,80 @@ margin: 0px 120px;
   width: 800px;
   position: relative;
 }
-#Sustainable-components{
+
+#Sustainable-components {
   display: flex;
- flex-direction: column;
- margin: 0px 100px;
+  flex-direction: column;
+  margin: 0px 100px;
 }
-#Sustainable-components > div > p:first-child {
-font-size: 20pt;
-font-weight: 600;
-position: relative;
-right: 50px;
-top: 37px;
+
+#Sustainable-components>div>p:first-child {
+  font-size: 20pt;
+  font-weight: 600;
+  position: relative;
+  right: 50px;
+  top: 37px;
 }
+
 #Sustainable-components>div>p:last-child {
   width: 300px;
 }
+
 #Hotels-and-Apartement-Gallery {
   display: flex;
   justify-content: center;
   flex-direction: row;
   height: 500px;
 }
-#Reine,#Norway,#Bergen {
+
+#Reine,
+#Norway,
+#Bergen {
   margin: 0px 10px;
 
 }
-#Hotels-and-Apartement-Gallery > div > img:first-child{
+
+#Hotels-and-Apartement-Gallery>div>img:first-child {
   height: 300px;
   width: 400px;
   padding: 5px 10px;
-  
+
 }
-#Hotels-and-Apartement-Gallery > div{
+
+#Hotels-and-Apartement-Gallery>div {
   height: 400px;
   box-shadow: 10px 10px 10px gray;
   border-radius: 10px;
   transition: 900ms;
 }
-#Hotels-and-Apartement-Gallery>div:hover{
+
+#Hotels-and-Apartement-Gallery>div:hover {
   padding: 10px;
   box-shadow: 50px 50px 50px gray;
   transition: 900ms;
 }
-#Hotels-menu{
+
+#Hotels-menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 50px;
 }
-#Hotels-menu > div{
+
+#Hotels-menu>div {
   margin: 0px 50px;
 }
-#button > input{
+
+#button>input {
   position: relative;
   top: 15px;
-  background-color:rgb(61, 61, 61);
+  background-color: rgb(61, 61, 61);
   color: white;
   letter-spacing: 10px;
 }
-#Hotels-menu > div > select,input {
+
+#Hotels-menu>div>select,
+input {
   width: 200px;
   height: 75px;
   border-radius: 8px;
@@ -309,27 +359,32 @@ top: 37px;
   text-align: center;
   font-size: 14pt;
 }
+
 #partners-logos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 188px;
-  
+
 }
-#partners-logos > img {
+
+#partners-logos>img {
   height: 100px;
   margin: 0px 50px;
 }
+
 #partners-logos>img:first-child {
   position: relative;
   bottom: 20px;
   height: 150px;
 }
-#partners-logos > img:last-child{
+
+#partners-logos>img:last-child {
   position: relative;
   top: 25px;
   height: 50px;
 }
+
 #comments {
   background-image: url(images/MaskGroup.png);
   background-size: cover;
@@ -340,12 +395,14 @@ top: 37px;
   height: 500px;
   margin: 150px 0px;
 }
-#comments > img {
+
+#comments>img {
   width: 350px;
   height: 289px;
   margin: 150px 10px;
 }
-footer{
+
+footer {
   background-color: rgb(244, 244, 244);
   display: flex;
   flex-direction: column;
@@ -358,15 +415,17 @@ footer{
   width: 50px;
   height: 50px;
   margin: 10px 50%;
-  
+
 }
-#logo>img{
+
+#logo>img {
   position: relative;
   left: 5px;
   top: 4.5px;
-  
+
 }
-#logo2{
+
+#logo2 {
   filter: invert(1);
   height: 20px;
   width: 100px;
@@ -374,35 +433,41 @@ footer{
   position: relative;
   right: 20px;
 }
-#footer-menu{
+
+#footer-menu {
   display: flex;
   justify-content: center;
   margin: 0px 50%;
   border-bottom: 1px rgb(11, 11, 11) solid;
-  
+
 }
-#footer-menu > a  {
+
+#footer-menu>a {
   margin: 30px;
   text-decoration: none;
   color: rgb(45, 45, 45);
   transition: 900ms;
 }
-#footer-menu>a:hover{
+
+#footer-menu>a:hover {
   font-size: 20px;
   transition: 900ms;
 }
-footer > p {
+
+footer>p {
   margin: 20px;
 }
+
 #end {
   display: flex;
   flex-direction: row;
   margin: 50px;
 }
-#end > img {
+
+#end>img {
   height: 20px;
   width: 110px;
   position: relative;
   left: 300px;
- 
+
 }
