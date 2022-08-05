@@ -74,6 +74,11 @@ header {
   color: white;
   margin: 20px 10px;
   font-weight: 500;
+  transition: 900ms;
+}
+#upper-main-menu>a:hover {
+  font-size: 20px;
+  transition: 900ms;
 }
 #norway-title {
   display: flex;
@@ -107,6 +112,11 @@ font-weight: 100;
   background-color: rgba(255, 255, 255, 0.231);
   border-radius: 10px;
   color: white;
+  transition: 900ms;
+}
+#cityes > div:hover{
+  width: 250px;
+  transition: 900ms;
 }
 #cityes > div > img{
   position: relative;
@@ -129,6 +139,7 @@ font-weight: 100;
    flex-direction: column;
    position: relative;
    bottom: 50px;
+   left: 40px;
 }
 #messengers > a { 
   margin: 10px;
@@ -169,22 +180,30 @@ main {
   height: 450px;
   width: 255px;
   margin: 0px 10px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 #hiking{
   background-image: url(images/Hiking.png);
+  transition: 900ms;
 }
 #sailing{
   background-image: url(images/Sailing.png);
+  transition: 900ms;
 }
 #skiing{
   background-image: url(images/Skiing.png);
+  transition: 900ms;
 }
 #Kayaking{
   background-image: url(images/Kayaking.png);
+  transition: 900ms;
 }
 
+#hiking:hover ,#sailing:hover ,#skiing:hover ,#Kayaking:hover {
+ width: 300px;
+ transition: 900ms;
+}
 #activities-gallery>div>p{
   position: relative;
   left: 20px;
@@ -239,8 +258,16 @@ top: 37px;
 
 }
 #Hotels-and-Apartement-Gallery > div > img{
- height: 300px;
- width: 400px;
+  height: 300px;
+  width: 400px;
+  
+}
+#Hotels-and-Apartement-Gallery > div{
+  transition: 900ms;
+}
+#Hotels-and-Apartement-Gallery>div:hover{
+  padding:0px 20px;
+  transition: 900ms;
 }
 #Hotels-menu{
   display: flex;
