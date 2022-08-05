@@ -79,6 +79,7 @@ header {
   transition: 900ms;
 }
 #upper-main-menu>a:hover {
+  text-shadow:  5px 5px 10px white;
   font-size: 20px;
   transition: 900ms;
 }
@@ -177,14 +178,17 @@ main {
   justify-content: center;
   margin: 0px auto;
   width: 1100px;
+  height: 500px;
   border: 2px #ffffff solid;
 }
 #activities-gallery > div {
   height: 450px;
   width: 255px;
   margin: 0px 10px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
 }
 #hiking{
   background-image: url(images/Hiking.png);
@@ -204,7 +208,9 @@ main {
 }
 
 #hiking:hover ,#sailing:hover ,#skiing:hover ,#Kayaking:hover {
- width: 300px;
+height: 500px;
+  width: 300px;
+  box-shadow: 50px 50px 50px gray;
  transition: 900ms;
 }
 #activities-gallery>div>p{
@@ -255,22 +261,27 @@ top: 37px;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  height: 500px;
 }
 #Reine,#Norway,#Bergen {
   margin: 0px 10px;
 
 }
-#Hotels-and-Apartement-Gallery > div > img{
+#Hotels-and-Apartement-Gallery > div > img:first-child{
   height: 300px;
   width: 400px;
+  padding: 5px 10px;
   
 }
 #Hotels-and-Apartement-Gallery > div{
+  height: 400px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10px;
   transition: 900ms;
 }
 #Hotels-and-Apartement-Gallery>div:hover{
-  margin-top: 10px;
-  padding:0px 20px;
+  padding: 10px;
+  box-shadow: 50px 50px 50px gray;
   transition: 900ms;
 }
 #Hotels-menu{
