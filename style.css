@@ -471,3 +471,6 @@ footer>p {
   left: 300px;
 
 }
+::-webkit-scrollbar {
+ display: none;
+}
