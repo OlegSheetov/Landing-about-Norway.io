@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 *,
@@ -91,36 +92,43 @@ header {
 }
 
 #norway-title {
+  
+  margin: auto auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;;
   color: white;
   position: relative;
   top: 200px;
-  right: 100px;
+
 }
 
 #norway-title>h1 {
   font-size: 200px;
   font-weight: bold;
+  text-align: center;
 }
 
 #norway-title>h3 {
   position: relative;
-  left: 500px;
+
   letter-spacing: 10px;
   font-size: 30px;
   font-weight: 100;
+  height: 50px;
+  text-align: center;
 }
 
 #cityes {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   position: relative;
   top: 400px;
 }
 
 #cityes>div {
-  margin: 0px 20px;
+  margin: 10px 20px;
   width: 200px;
   height: 60px;
   background-color: rgba(255, 255, 255, 0.231);
@@ -153,6 +161,7 @@ header {
 }
 
 #messengers {
+
   display: flex;
   flex-direction: column;
   position: relative;
@@ -198,17 +207,17 @@ main {
 #activities-gallery {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 0px auto;
-  width: 1100px;
-  height: 500px;
+  /* margin: 0px auto; */
+  
   border: 2px #ffffff solid;
 }
 
 #activities-gallery>div {
-  height: 450px;
-  width: 255px;
-  margin: 0px 10px;
+  height: 500px;
+  width: 300px;
+  margin: 10px 10px;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 10px 10px 10px gray;
@@ -239,8 +248,8 @@ main {
 #sailing:hover,
 #skiing:hover,
 #Kayaking:hover {
-  height: 500px;
-  width: 300px;
+  height: 550px;
+  width: 310px;
   box-shadow: 50px 50px 50px gray;
   transition: 900ms;
 }
@@ -274,14 +283,16 @@ main {
   background-repeat: no-repeat;
   border-radius: 20px;
   height: 700px;
-  width: 800px;
+  width: 80%;
   position: relative;
 }
 
 #Sustainable-components {
   display: flex;
-  flex-direction: column;
-  margin: 0px 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px 200px;
 }
 
 #Sustainable-components>div>p:first-child {
@@ -298,16 +309,16 @@ main {
 
 #Hotels-and-Apartement-Gallery {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row;
-  height: 500px;
+  justify-content: center;
+
 }
 
 #Reine,
 #Norway,
 #Bergen {
   margin: 0px 10px;
-
 }
 
 #Hotels-and-Apartement-Gallery>div>img:first-child {
@@ -319,6 +330,7 @@ main {
 
 #Hotels-and-Apartement-Gallery>div {
   height: 400px;
+  width: 400px;
   box-shadow: 10px 10px 10px gray;
   border-radius: 10px;
   transition: 900ms;
@@ -332,6 +344,7 @@ main {
 
 #Hotels-menu {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   padding: 50px;
@@ -360,16 +373,23 @@ input {
   font-size: 14pt;
 }
 
-#partners-logos {
+#Hotels-menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 188px;
+  padding: 50px;
+}
 
+#partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #partners-logos>img {
   height: 100px;
+  width: 150px;
   margin: 0px 50px;
 }
 
@@ -390,9 +410,9 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  height: 500px;
   margin: 150px 0px;
 }
 
@@ -471,6 +491,66 @@ footer>p {
   left: 300px;
 
 }
+
 ::-webkit-scrollbar {
- display: none;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  #upper-main-menu,
+  #header-travelx-icons,#menuicon {
+    display: none;
+  }
+
+  #messengers {
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+ 
+
+  #norway-title>h3 {
+    font-size: 10px;
+  }
+
+  #norway-title>h1 {
+    font-size: 80px;
+  }
+
+  #Our-Philosophy {
+    margin: 0px 10px;
+  }
+
+  #text2 {
+    width: 200px;
+    position: relative;
+    left: 20%;
+  }
+
+  #Sustainable {
+    flex-direction: column;
+
+  }
+
+  #Mointain-image {
+    height: 400px;
+    left: 10%;
+
+  }
+
+  #Sustainable-components>div>p:last-child {
+    width: 50vw;
+  }
+
+  #footer-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
